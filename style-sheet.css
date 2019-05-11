@@ -1,2 +1,26 @@
-.header {color: teal; text-align: center; font-size: 30pt;
-	text-shadow: 3px 1px aqua;}
+/* . for class selector, # for id selector */
+
+#header {
+	color: #8E8E8E; 
+	text-align: left; 
+	font-family:'Courier New', Courier, monospace, sans-serif;
+	font-size: 18pt;
+	padding: 0px 50px 0px 10px;
+}
+a{
+	text-decoration: none;
+	color: #465062;
+}
+a:visited{
+	color:#656565;
+}
+a:hover {
+	font-weight: bold;
+}
+hr {
+    display: block;
+    height: 1px;
+	border: 0;
+	max-width: 2000px;
+    border-top: 1px solid #ccc;
+}
