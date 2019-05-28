@@ -23,12 +23,13 @@
 }
 #header a:hover {
 		font-weight: bold;
+		color: #546A7B;
 }
 #right-column a{
 	position: relative;
 	/* font-family: Arial, Helvetica, sans-serif; */
 	text-decoration: none;
-	color: grey;
+	color: #546A7B;
 	letter-spacing: 1pt;
 }
 #right-column a:hover{
@@ -183,9 +184,6 @@ body{
 	font-size: 22pt;
 	position: relative;
 	display: block;
-
-	/* height: 400px; */
-	/* background-colorwhit; */
 	text-align: center;
 }
 #about-me{
@@ -200,14 +198,26 @@ body{
 	text-align: center;
 
 }
+#projects p{
+	color:black;
+	font-family: Roboto, sans-serif;
+	font-size: 15pt;
+	font-weight: 900;
+	text-align: center;
+}
 .box{
 	background-color: #CED5E5;
-	height:250px;
-	width:250px;
 	display: inline-block;
 	margin:0%;
 	margin-top: 10px;
-	/* display: inline; */
+	margin-bottom: 10px;
+	margin-right: 15px;
+	width:350px;
+ 	height:250px;
+	background-size:cover; 
+	background-position: center;
+	background-repeat:no-repeat; 
+	
 	
 }
 #projects a{
@@ -218,28 +228,35 @@ body{
 
 }
 #box1 {
-	/* margin-left: 20px; */
+	background-image:url('public/turnip1.gif');
+}
+#box1:hover{
+	background-image: url('public/turnip_caption.gif');
 }
 #box2{
-	/* margin-left: 100px; */
+	background-image: url('public/chatroom.gif');
+}
+#box3{
+	background-image: url('public/cal.gif');
 }
 .box p{
 	margin: 0%;
 	font-size: 30pt;
 	font-family: Roboto, sans-serif;
 	line-height: 250px;
-	text-align: center;
+	float: left;
 }
 
 html{
 	scroll-behavior: smooth;
 }
 #projects h1{
-	margin-top: 100px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	font-size: 1em;
 	text-align: center;
 	font-family: 'Poiret One';
-	font-weight: 400;
+	font-weight: 900;
 	text-transform: uppercase;
 	/* line-height: 2em; */
 	/* float: left; */
