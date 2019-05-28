@@ -236,8 +236,14 @@ body{
 #box2{
 	background-image: url('public/chatroom.gif');
 }
+#box2:hover{
+	background-image: url('public/chatroom_cap.gif');
+}
 #box3{
 	background-image: url('public/cal.gif');
+}
+#box3:hover{
+	background-image: url('public/cal_caption.gif')
 }
 .box p{
 	margin: 0%;
