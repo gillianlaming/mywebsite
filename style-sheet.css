@@ -44,13 +44,13 @@ hr {
     display: block;
     height: 1px;
 	/* width: 100%; */
-	color:#546A7B;
+	color: black;
 	/* margin-inline-start: 40%; */
 	width:150px;
-	background-color: #546A7B;
-	border-color:#546A7B;
-	border-top-color: #546A7B;
-	border-bottom-color: #546A7B;
+	background-color: black;
+	border-color:black;
+	/* border-top-color: #546A7B;
+	border-bottom-color: #546A7B; */
 }
 #writing hr{
 	width:140px;
@@ -189,20 +189,31 @@ body{
 	font-size: 22pt;
 	position: relative;
 	display: block;
-	/* margin-top: 100px; */
+	margin-top: 20px;
+	margin-bottom: 10px;
 	text-align: center;
 }
 #writing{
 	position: relative;
 	display: block;
 	text-align: center;
-	background-color: #CED5E5;
+	background-color: #E8EBF3;
+	/* background-image: url('public/shanghai.jpg'); */
 	width:100%;
 	padding-top: 10pt;
 	padding-bottom: 15pt;
+	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
 	
+}
+#photo{
+	position: relative;
+	height:400px;
+	background-image: url('public/shanghai.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
 }
 #writing1{
 	background-image: url('public/writing1.gif');
