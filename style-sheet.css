@@ -205,6 +205,7 @@ body{
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
+	height: 500px;
 	
 }
 #photo{
@@ -215,6 +216,7 @@ body{
 	background-attachment: fixed;
 	background-size: cover;
 }
+
 #writing1{
 	background-image: url('public/writing1.gif');
 }
@@ -266,6 +268,11 @@ body{
 }
 #box3:hover{
 	background-image: url('public/cal_caption.gif')
+}
+.caption{
+	display: inline;
+	text-align: center;
+	margin-bottom: 10px;
 }
 .box p{
 	margin: 0%;
