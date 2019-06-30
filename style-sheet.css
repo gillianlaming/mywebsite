@@ -1,12 +1,10 @@
 /* . for class selector, # for id selector */
 #header {
-	font-family: 'Poiret One';font-size: 22px;
 	position: fixed;
+	/* font-family: 'Poiret One';font-size: 22px;
 	font-weight: 500;
 	background-color:white;
 	color:black;
-
-
 	font-size: 16pt;
 	width: 100%;
 	top: 0;
@@ -17,16 +15,55 @@
 	padding-bottom: 15px;
 	letter-spacing: 2px;
 	padding-right: 15%;
-	padding-left: 13%; 
+	padding-left: 13%;  */
 }
-#header .active{
-	background-color:magenta;
+.regular{
+	font-family: 'Poiret One';font-size: 22px;
+	position: fixed;
+	font-weight: 500;
+	background-color:white;
+	color:black;
+	font-size: 16pt;
+	width: 100%;
+	top: 0;
+	height: 30px;
+	margin-left: -.05%;
+	text-transform: uppercase;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	letter-spacing: 2px;
+}
+.active a{
+	color:white;
+	text-decoration: none;
+}
+.active{
+	background-color:black;
+	color:white;
+	font-family: 'Poiret One';font-size: 22px;
+	position: fixed;
+	font-weight: 500;
+	font-size: 16pt;
+	width: 100%;
+	top: 0;
+	height: 30px;
+	margin-left: -.05%;
+	text-transform: uppercase;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	letter-spacing: 2px;
+}
+.regular a{
+	text-decoration: none;
+	color:black;
+}
+.regular .active a{
+	color:white;
+	text-decoration: none;
 }
 #header a{
 	text-decoration: none;
-	color: black;
-	/* color:white; */
-	/* display: inline; */
+	/* color:black; */
 	padding-left: 2%;
 }
 #header a:hover {
