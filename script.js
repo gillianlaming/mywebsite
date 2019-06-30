@@ -1,6 +1,6 @@
 $(function() {
     $(window).on("scroll", function() {
-        if($(window).scrollTop() > 600) {
+        if($(window).scrollTop() > 550) {
             $("#header").addClass("active");
             $("#header").removeClass("regular");
             console.log("yeet");
