@@ -118,6 +118,7 @@ body{
 	margin-bottom: 20px;
 	color: black;
 	text-align: center;
+	padding:2%;
  }
  #left-column{
 	 display: block;
@@ -133,6 +134,9 @@ body{
 	 margin-left:70px;
 	 text-align: left;
 	 height: 100%;
+ }
+ #wrapper #left-column p{
+	 text-align: left;
  }
  #banner{
 	 height:600px;
@@ -208,9 +212,7 @@ body{
 	text-transform: uppercase;
 	font-size: 22pt;
 }
-#wrapper h1{
-	background-color: #546A7B;
-}
+
 #writing{
 	display: block;
 	text-align: center;
@@ -237,13 +239,14 @@ body{
 #writing2{
 	background-image: url('public/writing2.gif');
 }
-#projects p{
+#wrapper p{
 	color:black;
 	font-family: Roboto, sans-serif;
 	font-size: 15pt;
 	font-weight: 900;
 	text-align: center;
 }
+
 .box{
 	background-color: #546A7B;
 	display: inline-block;
@@ -269,6 +272,10 @@ body{
 #projects a{
 	text-decoration: none;
 	color:white;
+	display:block;
+}
+
+#writing a{
 	display:block;
 }
 
