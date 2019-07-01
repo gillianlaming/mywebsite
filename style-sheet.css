@@ -128,7 +128,7 @@ body{
 	overflow: hidden;
 	float:right;
 	display: block;
-	max-width: 65%;
+	/* max-width: 65%; */
 	margin-top: -35px;
 	font-size: 12pt;
 	letter-spacing: 1pt;
