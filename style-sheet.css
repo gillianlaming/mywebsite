@@ -35,6 +35,10 @@
 	color:white;
 	text-decoration: none;
 }
+.active a:hover{
+	color:grey;
+	text-decoration: none;
+}
 .active{
 	background-color:black;
 	color:white;
