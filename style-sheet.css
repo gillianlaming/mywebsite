@@ -281,6 +281,9 @@ body{
 	background-image: url('public/writing1.gif');
 }
 #writing2{
+	background-image: url('public/writing2pic.jpg');
+}
+#writing3{
 	background-image: url('public/writing2.gif');
 }
 #wrapper p{
