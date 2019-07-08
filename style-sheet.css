@@ -75,8 +75,8 @@
 }
 #about-me #right-column a{
 	font-size: 12pt;
-	/* position: relative; */
-	/* font-family: Roboto, sans-serif; */
+	font-family: 'Roboto';
+	
 	text-decoration: none;
 	color: #546A7B;
 	letter-spacing: 1pt;
@@ -89,24 +89,13 @@
 	height: 20px;
     width: 20px;
 }
-hr {
-    display: block;
-    height: 1px;
-	/* width: 100%; */
-	color: black;
-	/* margin-inline-start: 40%; */
-	width:150px;
-	background-color: black;
-	border-color:black;
-	/* border-top-color: #546A7B;
-	border-bottom-color: #546A7B; */
-}
-#writing hr{
+
+/* #writing hr{
 	width:140px;
 }
 #projects hr{
 	width:430px;
-}
+} */
 br{
 	content: "";
   margin: 2em;
@@ -157,7 +146,7 @@ body{
 	 height:400px;
  }
  #right-column {
-	display: block;
+	display: inline-block;
 	float: right;
     height: 100%;
     margin: 0;
@@ -183,6 +172,8 @@ body{
  }
  #wrapper #left-column p{
 	 text-align: left;
+	 margin-top:5pt;
+	 margin-bottom:20pt;
  }
 
  #banner{
@@ -287,11 +278,14 @@ body{
 	background-image: url('public/writing2.gif');
 }
 #wrapper p{
-	color:black;
+	color: #2e2e2e;
 	/* text-decoration: underline; */
-	font-family: Roboto, sans-serif;
-	font-size: 10pt;
-	font-weight: 500;
+	/* font-family: Roboto, sans-serif; */
+	font-family: merriweather,serif;
+	font-size: 1rem;
+	font-weight: 50;
+	letter-spacing: .01rem;
+	/* font-weight: 500; */
 	/* line-height: 2em; */
 	text-align: center;
 }
@@ -302,6 +296,22 @@ body{
 	font-weight: 900;
 	line-height: 5pt;
 	text-align: center;
+}
+#wrapper h3{
+	color:black;
+	font-family: Roboto, sans-serif;
+	font-size: 13pt;
+	margin:0;
+	margin-bottom: 5pt;
+	font-weight: 500;
+	/* line-height: 5pt; */
+	text-align: center;
+}
+#wrapper #left-column h3{
+	text-align: left;
+	font-family: merriweather,serif;
+	font-size: 18pt;
+	font-weight: 50;
 }
 .box{
 	background-color: #546A7B;
@@ -331,8 +341,9 @@ body{
 	display:block;
 }
 #projects .caption-container a{
-	color:black;
 	font-family: Roboto, sans-serif;
+	/* font-family: merriweather; */
+	color:black;
 	font-size: 10pt;
 	font-weight: 500;
 	text-align: center;
